@@ -1,7 +1,12 @@
+var jumbo = {
+        backgroundImage: "url(./jumbotron.jpg)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        height: "calc(0.2 * 100vw)"
+    };
+
 export default function HeroBanner() {
     return (
-        <div className="container-fluid px-0">
-            <img src="./jumbotron.jpg" className="img-fluid" alt="..."></img>
-        </div>
+        <section style={jumbo}></ section>
     )
 }

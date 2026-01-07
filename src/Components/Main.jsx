@@ -3,12 +3,12 @@ import ComicsList from "./ComicsList"
 import IconsList from "./IconsList"
 
 
-export default function Main() {
+export default function Main({ comicsArray, iconsArray }) {
     return (
         <main>
             <HeroBanner></HeroBanner>
-            <ComicsList></ComicsList>
-            <IconsList></IconsList>
+            <ComicsList comicsArray={comicsArray}></ComicsList>
+            <IconsList iconsArray={iconsArray}></IconsList>
         </main>
     )
 }

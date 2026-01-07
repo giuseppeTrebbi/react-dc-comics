@@ -150,7 +150,15 @@ const comics = [
     type: "graphic novel",
     artists: ["Fernando Blanco", "Joëlle Jones"],
     writers: ["Joëlle Jones"],
-  },
+  }
 ];
 
-export default comics
+export default comics;
+
+
+
+
+
+
+
+
